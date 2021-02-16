@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c9373d53-2cc0-481d-a39d-c7bdb1019a81" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/ginblog.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/v1/article.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/v1/category.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/v1/login.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/v1/user.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/config.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/middleware/jwt.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/article.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/category.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/db.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/user.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/routes/router.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/errmsg/errmsg.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/setting.go" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Go File" />
+      </list>
+    </option>
+  </component>
+  <component name="GOROOT" path="/usr/local/go" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="hiddenUrls">
+      <set>
+        <option value="https://github.com/junaozun/ginblog" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectId" id="1oHTUBaG6DUJYXnqot5KPUD9T01" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="DefaultGoTemplateProperty" value="Go File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="ask.go.tool.to.install.GoImportsTaskConsumer" value="true" />
+    <property name="go.import.settings.migrated" value="true" />
+    <property name="go.sdk.automatically.set" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="watcher.settings" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
+      <module name="ginblog" />
+      <working_directory value="$PROJECT_DIR$" />
+      <go_parameters value="-i" />
+      <kind value="DIRECTORY" />
+      <filePath value="$PROJECT_DIR$" />
+      <package value="ginblog" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build ginblog" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="ginblog" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <filePath value="$PROJECT_DIR$/main.go" />
+      <package value="ginblog" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Go Build.go build ginblog" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VgoProject">
+    <integration-enabled>true</integration-enabled>
+    <environment>
+      <map>
+        <entry key="GOPROXY" value="https://goproxy.cn,direct" />
+      </map>
+    </environment>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="240" y="158" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1613306731668">
+      <screen x="0" y="27" width="1500" height="973" />
+    </state>
+    <state x="240" y="158" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.27.1500.973@0.27.1500.973" timestamp="1613306731668" />
+    <state x="818" y="293" width="610" height="435" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1613307987701">
+      <screen x="0" y="27" width="1500" height="973" />
+    </state>
+    <state x="818" y="293" width="610" height="435" key="#com.intellij.fileTypes.FileTypeChooser/0.27.1500.973@0.27.1500.973" timestamp="1613307987701" />
+    <state x="383" y="222" width="728" height="501" key="EditFileWatcherDialog" timestamp="1613384702291">
+      <screen x="0" y="27" width="1500" height="973" />
+    </state>
+    <state x="383" y="222" width="728" height="501" key="EditFileWatcherDialog/0.27.1500.973@0.27.1500.973" timestamp="1613384702291" />
+    <state x="648" y="344" width="639" height="324" key="EnvironmentVariablesDialog" timestamp="1612958321714">
+      <screen x="0" y="27" width="1500" height="973" />
+    </state>
+    <state x="648" y="344" width="639" height="324" key="EnvironmentVariablesDialog/0.27.1500.973@0.27.1500.973" timestamp="1612958321714" />
+    <state width="1446" height="254" key="GridCell.Tab.0.bottom" timestamp="1613493094929">
+      <screen x="0" y="27" width="1500" height="973" />
+    </state>
+    <state width="1446" height="254" key="GridCell.Tab.0.bottom/0.27.1500.973@0.27.1500.973" timestamp="1613493094929" />
+    <state width="1446" height="254" key="GridCell.Tab.0.center" timestamp="1613493094927">
+      <screen x="0" y="27" width="1500" height="973" />
+    </state>
+    <state width="1446" height="254" key="GridCell.Tab.0.center/0.27.1500.973@0.27.1500.973" timestamp="1613493094927" />
+    <state width="1446" height="254" key="GridCell.Tab.0.left" timestamp="1613493094926">
+      <screen x="0" y="27" width="1500" height="973" />
+    </state>
+    <state width="1446" height="254" key="GridCell.Tab.0.left/0.27.1500.973@0.27.1500.973" timestamp="1613493094926" />
+    <state width="1446" height="254" key="GridCell.Tab.0.right" timestamp="1613493094928">
+      <screen x="0" y="27" width="1500" height="973" />
+    </state>
+    <state width="1446" height="254" key="GridCell.Tab.0.right/0.27.1500.973@0.27.1500.973" timestamp="1613493094928" />
+    <state x="234" y="93" width="1031" height="751" key="SettingsEditor" timestamp="1613384709735">
+      <screen x="0" y="27" width="1500" height="973" />
+    </state>
+    <state x="234" y="93" width="1031" height="751" key="SettingsEditor/0.27.1500.973@0.27.1500.973" timestamp="1613384709735" />
+    <state x="441" y="228" key="search.everywhere.popup" timestamp="1613302936437">
+      <screen x="0" y="27" width="1500" height="973" />
+    </state>
+    <state x="441" y="228" key="search.everywhere.popup/0.27.1500.973@0.27.1500.973" timestamp="1613302936437" />
+  </component>
+</project>
