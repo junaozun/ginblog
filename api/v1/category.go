@@ -41,11 +41,12 @@ func GetCategory(c *gin.Context) {
 	if pageNum == 0 {
 		pageNum = -1
 	}
-	data := model.QueryCategoryLists(pageSize, pageNum)
+	data, total := model.QueryCategoryLists(pageSize, pageNum)
 	code = errmsg.SUCCESS
 	c.JSON(http.StatusOK, gin.H{
 		"status":  code,
 		"data":    data,
+		"total":   total,
 		"message": errmsg.GetErrMsg(code),
 	})
 }

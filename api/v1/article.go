@@ -32,10 +32,11 @@ func GetArtCategory(c *gin.Context) {
 	if pageNum == 0 {
 		pageNum = -1
 	}
-	data, code := model.QueryCategoryAllArt(pageSize, pageNum, id)
+	data, code, total := model.QueryCategoryAllArt(pageSize, pageNum, id)
 	c.JSON(http.StatusOK, gin.H{
 		"status":  code,
 		"data":    data,
+		"total":   total,
 		"message": errmsg.GetErrMsg(code),
 	})
 }
@@ -62,10 +63,11 @@ func GetArticle(c *gin.Context) {
 	if pageNum == 0 {
 		pageNum = -1
 	}
-	data, code := model.QueryArtLists(pageSize, pageNum)
+	data, code, total := model.QueryArtLists(pageSize, pageNum)
 	c.JSON(http.StatusOK, gin.H{
 		"status":  code,
 		"data":    data,
+		"total":   total,
 		"message": errmsg.GetErrMsg(code),
 	})
 }

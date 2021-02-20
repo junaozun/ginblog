@@ -10,8 +10,10 @@ import (
 
 func InitRouter() {
 	gin.SetMode(utils.AppMode)
-	r := gin.Default()
-
+	//r := gin.Default()
+	r := gin.New()
+	r.Use(middleware.Logger())
+	r.Use(gin.Recovery())
 	routerV1_Auth := r.Group("api/v1")
 	routerV1_Auth.Use(middleware.JwtToken())
 	{
@@ -29,6 +31,8 @@ func InitRouter() {
 		routerV1_Auth.PUT("article/:id", v1.EditArticle)
 		routerV1_Auth.DELETE("article/:id", v1.DeleteArticle)
 
+		//上传文件
+		routerV1_Auth.POST("upload", v1.Upload)
 	}
 
 	routerV1_No_Auth := r.Group("api/v1")

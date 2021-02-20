@@ -3,6 +3,7 @@ package v1
 import (
 	"ginblog/model"
 	"ginblog/utils/errmsg"
+	"ginblog/utils/validator"
 	"net/http"
 	"strconv"
 
@@ -15,6 +16,16 @@ var code int
 func AddUser(c *gin.Context) {
 	var data model.User
 	_ = c.ShouldBindJSON(&data)
+
+	msg, code := validator.Validator(&data)
+	if code != errmsg.SUCCESS {
+		c.JSON(http.StatusOK, gin.H{
+			"status":  code,
+			"message": msg,
+		})
+		return
+	}
+
 	code = model.CheckUser(data.Username)
 	if code == errmsg.SUCCESS { //用户名不存在
 		// 用户名写入数据库
@@ -41,11 +52,12 @@ func GetUsers(c *gin.Context) {
 	if pageNum == 0 {
 		pageNum = -1
 	}
-	data := model.QueryUserLists(pageSize, pageNum)
+	data, total := model.QueryUserLists(pageSize, pageNum)
 	code = errmsg.SUCCESS
 	c.JSON(http.StatusOK, gin.H{
 		"status":  code,
 		"data":    data,
+		"total":   total,
 		"message": errmsg.GetErrMsg(code),
 	})
 }

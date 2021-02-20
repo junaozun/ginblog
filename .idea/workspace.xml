@@ -20,27 +20,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c9373d53-2cc0-481d-a39d-c7bdb1019a81" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/ginblog.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/v1/article.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/v1/category.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/v1/login.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/v1/user.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/config.ini" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/middleware/jwt.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/article.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/category.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/db.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/user.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/routes/router.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/errmsg/errmsg.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/setting.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/v1/upload.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/middleware/cors.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/middleware/logger.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/model/upload.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/validator/validator.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/v1/article.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/v1/article.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/v1/category.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/v1/category.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/v1/user.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/v1/user.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/config.ini" beforeDir="false" afterPath="$PROJECT_DIR$/config/config.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/article.go" beforeDir="false" afterPath="$PROJECT_DIR$/model/article.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/category.go" beforeDir="false" afterPath="$PROJECT_DIR$/model/category.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/user.go" beforeDir="false" afterPath="$PROJECT_DIR$/model/user.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/router.go" beforeDir="false" afterPath="$PROJECT_DIR$/routes/router.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/setting.go" beforeDir="false" afterPath="$PROJECT_DIR$/utils/setting.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -149,22 +145,22 @@
       <screen x="0" y="27" width="1500" height="973" />
     </state>
     <state x="648" y="344" width="639" height="324" key="EnvironmentVariablesDialog/0.27.1500.973@0.27.1500.973" timestamp="1612958321714" />
-    <state width="1446" height="254" key="GridCell.Tab.0.bottom" timestamp="1613493094929">
+    <state width="696" height="243" key="GridCell.Tab.0.bottom" timestamp="1613583032646">
       <screen x="0" y="27" width="1500" height="973" />
     </state>
-    <state width="1446" height="254" key="GridCell.Tab.0.bottom/0.27.1500.973@0.27.1500.973" timestamp="1613493094929" />
-    <state width="1446" height="254" key="GridCell.Tab.0.center" timestamp="1613493094927">
+    <state width="696" height="243" key="GridCell.Tab.0.bottom/0.27.1500.973@0.27.1500.973" timestamp="1613583032646" />
+    <state width="696" height="243" key="GridCell.Tab.0.center" timestamp="1613583032646">
       <screen x="0" y="27" width="1500" height="973" />
     </state>
-    <state width="1446" height="254" key="GridCell.Tab.0.center/0.27.1500.973@0.27.1500.973" timestamp="1613493094927" />
-    <state width="1446" height="254" key="GridCell.Tab.0.left" timestamp="1613493094926">
+    <state width="696" height="243" key="GridCell.Tab.0.center/0.27.1500.973@0.27.1500.973" timestamp="1613583032646" />
+    <state width="696" height="243" key="GridCell.Tab.0.left" timestamp="1613583032645">
       <screen x="0" y="27" width="1500" height="973" />
     </state>
-    <state width="1446" height="254" key="GridCell.Tab.0.left/0.27.1500.973@0.27.1500.973" timestamp="1613493094926" />
-    <state width="1446" height="254" key="GridCell.Tab.0.right" timestamp="1613493094928">
+    <state width="696" height="243" key="GridCell.Tab.0.left/0.27.1500.973@0.27.1500.973" timestamp="1613583032645" />
+    <state width="696" height="243" key="GridCell.Tab.0.right" timestamp="1613583032646">
       <screen x="0" y="27" width="1500" height="973" />
     </state>
-    <state width="1446" height="254" key="GridCell.Tab.0.right/0.27.1500.973@0.27.1500.973" timestamp="1613493094928" />
+    <state width="696" height="243" key="GridCell.Tab.0.right/0.27.1500.973@0.27.1500.973" timestamp="1613583032646" />
     <state x="234" y="93" width="1031" height="751" key="SettingsEditor" timestamp="1613384709735">
       <screen x="0" y="27" width="1500" height="973" />
     </state>
